@@ -1,11 +1,11 @@
 https://github.com/ColdWindScholar/Auto-Twrp-Builder
 
-# <div align="center">在Github上只需上传你的recovery即可一键编译出适合你手机的TWRP！</div>
+# <div align="center">Просто загрузите свое Recovery на Github, чтобы одним щелчком мыши скомпилировать TWRP, подходящий для вашего телефона!</div>
 
-## 用法:
-###  1、Fork本仓库
-### 2、使用bootimg等解包工具解包你的recovery，在default.prop或prop.default底下添加ro.product.first_api_level=(你的安卓sdk版本)，打包
-### 3、上传打包好的recovery.img到本项目底下，并复制该文件直链
-### 4、点击Action，填入直链及twrp版本信息
-### 5、点击Run即可！
-### 6、编译完成后可在Release下载编译好的Recovery
+## Как использовать:
+### 1. Создайте форк репозитория
+### 2. Используйте bootimg или другие инструменты для распаковки вашего recovery, добавьте ro.product.first_api_level=XYZ, XYZ — это уровень API для вашей версии Android (вы можете найти таблицу для них на https://apilevels.com/, например, 29 для Android 10) в default.prop или prop.default, и перепакуйте его.
+### 3. Загрузите перепакованный recovery.img в ваш форкнутый репозиторий и скопируйте прямую ссылку на файл (на github нажмите на файл и скопируйте ссылку с помощью кнопки "raw")
+### 4. Откройте Action, введите ссылку и информацию о версии twrp
+### 5. Наконец, просто нажмите «Выполнить»!
+### 6. После завершения сборки вы можете найти и скачать скомпилированное Recovery в разделе Release
